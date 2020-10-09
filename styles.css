@@ -1,0 +1,47 @@
+html{
+    height: 100vh;
+}
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+.dado{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+.fila, .fila-izq, .fila-der, .fila-both, .fila-centro{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.fila-izq{
+    justify-content: flex-start;
+}
+.fila-der{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.fila-centro{
+    justify-content: center;
+}
+.fila-both{
+    justify-content: space-between;
+}
+.punto{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
